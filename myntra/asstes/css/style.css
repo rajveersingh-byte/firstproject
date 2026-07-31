@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+a{
+    color: white;
+}
+
+/* header */
+
+header{
+    box-shadow: 0px 0px 10px #ccc;
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    background: white;
+}
+
+.container{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.logo{
+    width: 10%;
+    padding: 10px 5px 10px 30px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.menu{
+    width: 70%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 15px;
+}
+
+nav ul li{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(7) sup{
+    color: red;
+    padding-left: 2px;
+    font-size: 10px;
+}
+
+nav ul li:nth-child(8){
+    display: flex;
+    align-items: center;
+    background: #cccccc4a;
+    
+}
+
+nav ul li:nth-child(8) i{
+    padding-left: 10px;
+}
+
+nav ul li:nth-child(8) input{
+    width: 380px;
+    padding: 10px 25px;
+    border: none;
+     background: #cccccc03;
+    outline: none;
+}
+
+.icons{
+    width: 20%;
+}
+
+.icons ul{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+}
+
+.icons ul li{
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* end-header */
+
+/* cupon */
+
+.cupon{
+    width: 100%;
+}
+
+.cupon img{
+    width: 100%;
+}
+
+
+.container2{
+    width: 1400px;
+    margin: auto;
+}
+
+.container2 h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+    padding: 10px 0px;
+}
+
+.product-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-img img{
+    width: 200px;
+}
+
+.chat-icon{
+    width: 50px;
+    height: 50px;
+    background: rgb(92, 146, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.chat-icon i{
+   font-size: 26px;
+}
+
+.offer{
+    width: 250px;
+    background: #3a3a3a;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: fixed;
+    right: -100px;
+    top: 40%;
+    transform: rotate(270deg);
+
+}
