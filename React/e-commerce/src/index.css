@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+	color: #18352f;
+	background: #f8f7f3;
+	font-synthesis: none;
+}
+
+body { margin: 0; min-width: 320px; background: #f8f7f3; }
+button, a { transition: all 180ms ease; }
